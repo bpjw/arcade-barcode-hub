@@ -1,0 +1,77 @@
+name: Build APK on Tag and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Cordova & Vite
+        run: |
+          npm install -g cordova
+          npm ci
+        working-directory: web
+
+      - name: Build Vite Project
+        run: |
+          npm run build  
+        working-directory: web
+
+      - name: Ensure www/ exists
+        run: mkdir -p www
+        working-directory: .
+
+      - name: Add Android Platform
+        run: |
+          ls -la
+          cordova platform add android
+        working-directory: .
+      - name: Decode keystore from Secret
+        run: |
+          echo "${{ secrets.ANDROID_KEYSTORE }}" | base64 -d > my-release-key.keystore
+
+      - name: Create build.json
+        run: |
+          cat <<EOF > build.json
+          {
+            "android": {
+              "release": {
+                "keystore": "my-release-key.keystore",
+                "storePassword": "${{ secrets.KEYSTORE_PASSWORD }}",
+                "alias": "${{ secrets.KEY_ALIAS }}",
+                "password": "${{ secrets.KEY_PASSWORD }}"
+              }
+            }
+          }
+          EOF
+
+      - name: Build Signed Cordova Android APK
+        run: cordova build android --release --buildConfig=build.json -- --packageType=apk
+        working-directory: .
+    
+      - name: Rename APK
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/}
+          mv platforms/android/app/build/outputs/apk/release/app-release.apk esp-app-${VERSION}.apk
+
+      - name: Release APK on GitHub
+        uses: softprops/action-gh-release@v1
+        with:
+          name: ESP App ${{ github.ref_name }}
+          tag_name: ${{ github.ref_name }}
+          files: esp-app-${{ github.ref_name }}.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE }}
+

@@ -1,0 +1,18 @@
+.stats {
+  transform: skewX(345deg);
+}
+
+span.strength.stat {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+}
+
+
+span.tech.stat {
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+}

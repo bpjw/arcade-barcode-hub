@@ -1,0 +1,11 @@
+{
+  "name": "webcomponents-spa",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "^6.3.5"
+  }
+}

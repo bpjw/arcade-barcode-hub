@@ -1,0 +1,99 @@
+Card Compatibility,,Regular Dinos,,,,,"Special Dinos (Armored, Super, Alpha, Etc.)",,,,,,Dinosaurs with built-in moves,,,,,,,
+ODR = Operation Dino Rescue,Card,Type,Compatibility,Code,,Card,Type,Compatibility,Code,Armor Code,,Card,Type,Compatibility,Code,Armor Code,Rock,Paper,Scissors,
+AF = Alpha Fortress,Tyrannosaurus,Attack,ODR,SEGA6SBDGRE2,x,Black T-Rex,Death,AF,SEGADYOCKF1J,N/A,x,Terry (With Dr.Z),Reform,JPN,SEGANLUCY2QQ,N/A,Magma Blaster,Neck Crusher,Fire Bomb,-
+JPN = Japanese Game,Tyrannosaurus,Counter,AF,SEGAEF4BFWU0,x,Terry,Super Attack,AF,SEGA3JH79ZSI,N/A,x,Terry (With Ursula),Reform,JPN,SEGAAQMNOA7M,N/A,Dino Stuffer,Burning Dash,Fire Bomb,-
+Card codes found by Anvil,Tyrannosaurus,Revival,AF,SEGA4SOT894X,x,Terry,Reform,JPN,SEGASW8ZH4U5,N/A,x,Gigas (With Gavro),Poison,JPN,SEGAQODH972Z,N/A,Magma Blaster,Atomic Bomb,Death Fire,-
+,Tyrannosaurus,Hunter,JPN,SEGA6DMG8L7K,x,Terry,Rock-Rock,JPN,SEGA82O6MFR0,N/A,x,Eocarcharia Omega Armor (With Goma),Tie Recovery,JPN,SEGA08649SCA,SEGAJMRYNU49,Heat Eruption,Volcano Burst,Crimson Flame,-
+,Saurophaganax,Super Attack,AF,SEGAF1C7TSUO,x,Dinotector Terry,Reform,JPN,SEGA8WJCG38Q,SEGAXND8E2K2,x,Alpha Acrocanthosaurus (With Dr.Z),Lethal,JPN,SEGA2L1N05ZJ,N/A,Fire Cannon,Burning Dash,Death Fire,-
+,Mapusaurus,Reform,JPN,SEGABFZGYL38,x,Dinotector Terry,Rock-Rock,JPN,SEGAMG7V0BOF,SEGAXND8E2K2,x,Alpha Rajasaurus (With Zander),Blunder/Impact,JPN,SEGAM1JC2HW3,N/A,Power Drain,Stun Dash,Triple Headbutt,-
+,Mapusaurus,Scissors-Scissors,JPN,SEGAI0165VTS,x,Dinotector Tyrannosaurus,Rock-Rock,JPN,SEGAU6URYTXI,SEGAXND8E2K2,x,Torvosaurus (With Ursula),Heroic,JPN,SEGAWJ60SKPW,N/A,Heat Eruption,Volcano Burst,Banana Surprise,-
+,Eocarcharia,Tie Recovery,JPN,SEGA3DK0GJSZ,x,Gigas No Armor,Poison,JPN,SEGADIV10T7Q,N/A,x,Yangchuanosaurus (With Rod),Defense,JPN,SEGA2Z6F0BIQ,N/A,Dino Stuffer,Blazing Spin Attack,Elemental Power,-
+,Carcharodontosaurus,Defense,ODR,SEGA65BV7SO9,x,Gigas No Armor,Scissors-Scissors,JPN,SEGAPVFMTTP1,N/A,x,Black T-Rex (With Seth),Death,JPN,SEGAYZYH20N0,N/A,Magma Blaster,Burning Dash,Fire Bomb,-
+,Carcharodontosaurus,Blitz,AF,SEGA4MPNH5PB,x,Spectral Armor Gigas,Poison,JPN,SEGAAH2Y8U1I,SEGAML7D4PLV,x,Black T-Rex (With Seth),Death,JPN,SEGAJNYQ16HJ,N/A,Magma Blaster,Crimson Flame,Fire Bomb,-
+,Carcharodontosaurus,Counter,JPN,SEGAFOBFB4K6,x,Spectral Armor Gigas,Scissors-Scissors,JPN,SEGA5MVHJPL3,SEGAML7D4PLV,x,Yangchuanosaurus (With Sheer),Defense,JPN,SEGAVG8WLWIK,N/A,Move Block,Burning Dash,Venom Fang,-
+,Carcharodontosaurus,Lethal,JPN,SEGANBOWOB4U,x,Eocarcharia Omega Armor,Tie Recovery,JPN,SEGA5AQLT5FJ,SEGAJMRYNU49,x,Siamotyrannus (With Dr. Taylor),Scissors-Scisssors,JPN,SEGAOHTM1405,N/A,Skydive,Burning Dash,Triple Headbutt,-
+,Daspletosaurus,Blitz,AF,SEGA8NCVMX1F,x,Alpha Acrocanthosaurus,Tie,ODR,SEGAZ3K5JDL7,N/A,x,Metriacanthosaurus (With Zander),Blunder/Impact,JPN,SEGAIU9YQCB8,N/A,Fire Cannon,Alpha Dice,Banana Surprise,-
+,Daspletosaurus,Defense,JPN,SEGA2J6K7Q14,x,Alpha Acrocanthosaurus,Poison,AF,SEGAFJGQQTM2,N/A,x,Super Terry (With Ursula),Super,JPN,SEGAYYOKI6R2,N/A,Defense Burst,Crimson Flame,Flare Sword,-
+,Torvosaurus,Tie,ODR,SEGANYLOPM42,x,Alpha Acrocanthosaurus,Lethal,JPN,SEGANZZTCWMS,N/A,x,Super Tyrannosaurus (With Ursula),Super,JPN,SEGA1GX5RGXG,N/A,Defense Burst,Crimson Flame,Flare Sword,-
+,Torvosaurus,Hunter,AF,SEGA4FQXTA0T,x,Alpha Rajasaurus,Poison,JPN,SEGAWZ3VB3AW,N/A,x,Super Terry (With Dr.Z),Super,JPN,SEGA80VKLD42,N/A,Heat Eruption,Crimson Flame,Flare Sword,-
+,Torvosaurus,Heroic,JPN,SEGAMHCP7US0,x,Alpha Rajasaurus,Blunder/Impact,JPN,SEGAJIWXR4LH,N/A,x,Super Tyrannosaurus (With Dr. Z),Super,JPN,SEGAISTNMDDC,N/A,Heat Eruption,Crimson Flame,Flare Sword,-
+,Yangchuanosaurus,Charge,AF,SEGAFE17ODLA,x,Alpha Gorgosaurus,Tie,ODR,SEGACMDUVP41,N/A,x,Gigas (With Gavro),Scissors-Scisssors,JPN,SEGANYT0MLOR,N/A,Heat Eruption,Dromiceio Rush,Flare Sword,-
+,Yangchuanosaurus,Revival,AF,SEGAWNPTNKER,x,Alpha Gorgosaurus,Poison,AF,SEGAPUM650DR,N/A,x,Super Eocarcharia (With Goma),Super,JPN,SEGAMBPDNA36,N/A,Heat Eruption,Burning Dash,Flare Sword,-
+,Yangchuanosaurus,Defense,JPN,SEGA573HNJYP,x,Super Tyrannosaurus,Super,JPN,SEGAN8URHAMO,N/A,x,,,,,,,,,
+,Abelisaurus,Recovery,JPN,SEGAJUHIG630,x,Super Eocarcharia,Super,JPN,SEGAFCCCGZD8,N/A,x,,,,,,,,,
+,Abelisaurus,Scissors-Scissors,JPN,SEGA9QUFY8US,x,Super Daspletosaurus,Super,JPN,SEGAJKUWROMU,N/A,x,,,,,,,,,
+,Giganotosaurus,Attack,ODR,SEGABYSFYD09,x,Super Torvosaurus,Super,JPN,SEGA07A6X8QX,N/A,x,,,,,,,,,
+,Giganotosaurus,Counter,AF,SEGA9B2CB4IX,x,Super Rajasaurus,Super,JPN,SEGA8LVNGQ7V,N/A,x,,,,,,,,,
+,Giganotosaurus,Hunter,JPN,SEGANKK9HYDR,x,Super Tarbosaurus,Super,JPN,SEGAYSZ5Y6SC,N/A,x,,,,,,,,,
+,Acrocanthosaurus,Defense,ODR,SEGA82V6JD96,x,Super Alioramus,Super,JPN,SEGABOLCX8I0,N/A,x,,,,,,,,,
+,Acrocanthosaurus,Blitz,AF,SEGANN4BIORL,x,Super Terry,Super,JPN,SEGAPDBV290S,N/A,x,,,,,,,,,
+,Acrocanthosaurus,Revival,AF,SEGA492VEHU7,x,,,,,,,,,,,,,,,
+,Acrocanthosaurus,Hunter,JPN,SEGAND2C3VFV,x,,,,,,,,,,,,,,,
+,Acrocanthosaurus,Lethal,JPN,SEGAN5E3S5HR,x,,,,,,,,,,,,,,,
+,Rajasaurus,Hunter,AF,SEGATSU6CXX9,x,,,,,,,,,,,,,,,
+,Rajasaurus,Recovery,JPN,SEGAQ54Y8USL,x,,,,,,,,,,,,,,,
+,Metriacanthosaurus,Lucky 7,JPN,SEGAL6JLMHN7,x,,,,,,,,,,,,,,,
+,Metriacanthosaurus,Blunder/Impact,JPN,SEGAJFVAB4XJ,x,,,,,,,,,,,,,,,
+,Tarbosaurus,Defense,ODR,SEGADSDHJV17,x,,,,,,,,,,,,,,,
+,Tarbosaurus,Blitz,AF,SEGARZLA6RON,x,,,,,,,,,,,,,,,
+,Tarbosaurus,Revival,AF,SEGA8XYHMLW4,x,,,,,,,,,,,,,,,
+,Tarbosaurus,Hunter,JPN,SEGA2B42GA4T,x,,,,,,,,,,,,,,,
+,Siamotyrannus,Charge,AF,SEGALXQFYGSF,x,,,,,,,,,,,,,,,
+,Siamotyrannus,Scissors-Scissors,JPN,SEGAYRL0D7BF,x,,,,,,,,,,,,,,,
+,Albertosaurus,Heroic,AF,SEGAYGL1H4LK,x,,,,,,,,,,,,,,,
+,Albertosaurus,Attack,JPN,SEGAD13U51SI,x,,,,,,,,,,,,,,,
+,Albertosaurus,Tie Recovery,JPN,SEGAN7C4SLNI,x,,,,,,,,,,,,,,,
+,Gorgosaurus,Tie,ODR,SEGABNFD29H1,x,,,,,,,,,,,,,,,
+,Gorgosaurus,Counter,AF,SEGA7CTESGHS,x,,,,,,,,,,,,,,,
+,Gorgosaurus,Charge,JPN,SEGAMQ4S6W57,x,,,,,,,,,,,,,,,
+,Gorgosaurus,Rock-Rock,JPN,SEGA2I494N6D,x,,,,,,,,,,,,,,,
+,Alioramus,Counter,AF,SEGAHT4AU9JP,x,,,,,,,,,,,,,,,
+,Alioramus,Tie,JPN,SEGAQ9IPIHC3,x,,,,,,,,,,,,,,,
+,Card,Type,Compatibility,Code,Armor Code,,,,,,,,,,,,,,,
+,Black T-Rex,Death,AF,SEGADYOCKF1J,N/A,,,,,,,,,,,,,,,
+,Terry,Super Attack,AF,SEGA3JH79ZSI,N/A,,,,,,,,,,,,,,,
+,Terry,Reform,JPN,SEGASW8ZH4U5,N/A,,,,,,,,,,,,,,,
+,Terry,Rock-Rock,JPN,SEGA82O6MFR0,N/A,,,,,,,,,,,,,,,
+,Dinotector Terry,Reform,JPN,SEGA8WJCG38Q,SEGAXND8E2K2,,,,,,,,,,,,,,,
+,Dinotector Terry,Rock-Rock,JPN,SEGAMG7V0BOF,SEGAXND8E2K2,,,,,,,,,,,,,,,
+,Dinotector Tyrannosaurus,Rock-Rock,JPN,SEGAU6URYTXI,SEGAXND8E2K2,,,,,,,,,,,,,,,
+,Gigas No Armor,Poison,JPN,SEGADIV10T7Q,N/A,,,,,,,,,,,,,,,
+,Gigas No Armor,Scissors-Scissors,JPN,SEGAPVFMTTP1,N/A,,,,,,,,,,,,,,,
+,Spectral Armor Gigas,Poison,JPN,SEGAAH2Y8U1I,SEGAML7D4PLV,,,,,,,,,,,,,,,
+,Spectral Armor Gigas,Scissors-Scissors,JPN,SEGA5MVHJPL3,SEGAML7D4PLV,,,,,,,,,,,,,,,
+,Eocarcharia Omega Armor,Tie Recovery,JPN,SEGA5AQLT5FJ,SEGAJMRYNU49,,,,,,,,,,,,,,,
+,Alpha Acrocanthosaurus,Tie,ODR,SEGAZ3K5JDL7,N/A,,,,,,,,,,,,,,,
+,Alpha Acrocanthosaurus,Poison,AF,SEGAFJGQQTM2,N/A,,,,,,,,,,,,,,,
+,Alpha Acrocanthosaurus,Lethal,JPN,SEGANZZTCWMS,N/A,,,,,,,,,,,,,,,
+,Alpha Rajasaurus,Poison,JPN,SEGAWZ3VB3AW,N/A,,,,,,,,,,,,,,,
+,Alpha Rajasaurus,Blunder/Impact,JPN,SEGAJIWXR4LH,N/A,,,,,,,,,,,,,,,
+,Alpha Gorgosaurus,Tie,ODR,SEGACMDUVP41,N/A,,,,,,,,,,,,,,,
+,Alpha Gorgosaurus,Poison,AF,SEGAPUM650DR,N/A,,,,,,,,,,,,,,,
+,Super Tyrannosaurus,Super,JPN,SEGAN8URHAMO,N/A,,,,,,,,,,,,,,,
+,Super Eocarcharia,Super,JPN,SEGAFCCCGZD8,N/A,,,,,,,,,,,,,,,
+,Super Daspletosaurus,Super,JPN,SEGAJKUWROMU,N/A,,,,,,,,,,,,,,,
+,Super Torvosaurus,Super,JPN,SEGA07A6X8QX,N/A,,,,,,,,,,,,,,,
+,Super Rajasaurus,Super,JPN,SEGA8LVNGQ7V,N/A,,,,,,,,,,,,,,,
+,Super Tarbosaurus,Super,JPN,SEGAYSZ5Y6SC,N/A,,,,,,,,,,,,,,,
+,Super Alioramus,Super,JPN,SEGABOLCX8I0,N/A,,,,,,,,,,,,,,,
+,Super Terry,Super,JPN,SEGAPDBV290S,N/A,,,,,,,,,,,,,,,
+,Card,Type,Compatibility,Code,Armor Code,Rock,Paper,Scissors,,,,,,,,,,,,
+,Terry (With Dr.Z),Reform,JPN,SEGANLUCY2QQ,N/A,Magma Blaster,Neck Crusher,Fire Bomb,,,,,,,,,,,,
+,Terry (With Ursula),Reform,JPN,SEGAAQMNOA7M,N/A,Dino Stuffer,Burning Dash,Fire Bomb,,,,,,,,,,,,
+,Gigas (With Gavro),Poison,JPN,SEGAQODH972Z,N/A,Magma Blaster,Atomic Bomb,Death Fire,,,,,,,,,,,,
+,Eocarcharia Omega Armor (With Goma),Tie Recovery,JPN,SEGA08649SCA,SEGAJMRYNU49,Heat Eruption,Volcano Burst,Crimson Flame,,,,,,,,,,,,
+,Alpha Acrocanthosaurus (With Dr.Z),Lethal,JPN,SEGA2L1N05ZJ,N/A,Fire Cannon,Burning Dash,Death Fire,,,,,,,,,,,,
+,Alpha Rajasaurus (With Zander),Blunder/Impact,JPN,SEGAM1JC2HW3,N/A,Power Drain,Stun Dash,Triple Headbutt,,,,,,,,,,,,
+,Torvosaurus (With Ursula),Heroic,JPN,SEGAWJ60SKPW,N/A,Heat Eruption,Volcano Burst,Banana Surprise,,,,,,,,,,,,
+,Yangchuanosaurus (With Rod),Defense,JPN,SEGA2Z6F0BIQ,N/A,Dino Stuffer,Blazing Spin Attack,Elemental Power,,,,,,,,,,,,
+,Black T-Rex (With Seth),Death,JPN,SEGAYZYH20N0,N/A,Magma Blaster,Burning Dash,Fire Bomb,,,,,,,,,,,,
+,Black T-Rex (With Seth),Death,JPN,SEGAJNYQ16HJ,N/A,Magma Blaster,Crimson Flame,Fire Bomb,,,,,,,,,,,,
+,Yangchuanosaurus (With Sheer),Defense,JPN,SEGAVG8WLWIK,N/A,Move Block,Burning Dash,Venom Fang,,,,,,,,,,,,
+,Siamotyrannus (With Dr. Taylor),Scissors-Scisssors,JPN,SEGAOHTM1405,N/A,Skydive,Burning Dash,Triple Headbutt,,,,,,,,,,,,
+,Metriacanthosaurus (With Zander),Blunder/Impact,JPN,SEGAIU9YQCB8,N/A,Fire Cannon,Alpha Dice,Banana Surprise,,,,,,,,,,,,
+,Super Terry (With Ursula),Super,JPN,SEGAYYOKI6R2,N/A,Defense Burst,Crimson Flame,Flare Sword,,,,,,,,,,,,
+,Super Tyrannosaurus (With Ursula),Super,JPN,SEGA1GX5RGXG,N/A,Defense Burst,Crimson Flame,Flare Sword,,,,,,,,,,,,
+,Super Terry (With Dr.Z),Super,JPN,SEGA80VKLD42,N/A,Heat Eruption,Crimson Flame,Flare Sword,,,,,,,,,,,,
+,Super Tyrannosaurus (With Dr. Z),Super,JPN,SEGAISTNMDDC,N/A,Heat Eruption,Crimson Flame,Flare Sword,,,,,,,,,,,,
+,Gigas (With Gavro),Scissors-Scisssors,JPN,SEGANYT0MLOR,N/A,Heat Eruption,Dromiceio Rush,Flare Sword,,,,,,,,,,,,
+,Super Eocarcharia (With Goma),Super,JPN,SEGAMBPDNA36,N/A,Heat Eruption,Burning Dash,Flare Sword,,,,,,,,,,,,

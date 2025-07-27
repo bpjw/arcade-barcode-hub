@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+:root {
+  --background-color: white;
+  --text-color: black;
+  --link-color: blue;
+  --font-family: "Russo One", serif;
+  --accent-color: blue;
+}
+
+[data-theme="dino"] {
+  --background-color: #117bbd;
+  --text-color: orange;
+  --link-color: lightblue;
+  --font-family: "Russo One", serif;
+  --brand-color: orange;
+  --accent-color: orange;
+}
+
+.card-overview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 1;
+  background-image:
+    radial-gradient(circle at center center, #ffffff, var(--background-color)),
+    repeating-radial-gradient(
+      circle at center center,
+      #ffffff,
+      #ffffff,
+      16px,
+      transparent 32px,
+      transparent 16px
+    );
+  background-blend-mode: multiply;
+}
+card-component {
+  width: 250px;
+}
+
+body {
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--font-family);
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  display: flex;
+}
+
+a {
+  color: var(--link-color);
+}

@@ -1,0 +1,7 @@
+.menu-button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: peru;
+}
