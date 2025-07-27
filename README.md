@@ -1,4 +1,4 @@
-# HID Barcode Reader Emulator
+# Arcade Barcode Hub
 
 This project provides a solution for emulating a HID (Human Interface Device) barcode scanner using an ESP32 microcontroller. The primary goal is to enhance the gameplay experience in Flycast for games that utilize barcode functionality, offering a more seamless and fluent interaction.
 
@@ -35,7 +35,7 @@ The web application provides a simple interface for sending barcodes to the ESP3
 
 ## Usage
 
-To get started with the HID Barcode Reader Emulator, follow these steps:
+To get started with the Arcade Barcode Hub, follow these steps:
 
 1. **Set Up the ESP32:**
    - Flash the `hid-barcode-reader-emulator.ino` sketch to your ESP32 using the Arduino IDE.
@@ -55,11 +55,24 @@ To get started with the HID Barcode Reader Emulator, follow these steps:
 
 ## Flycast Integration
 
-Many arcade games, especially those emulated in Flycast, use barcode scanners for gameplay mechanics. This project replaces the need for a physical scanner with a more convenient and adaptable solution. By sending barcodes through the web interface, you can enjoy a smoother and more immersive gaming experience.
+Arcade games, especially those emulated in Flycast, use barcode scanners for gameplay mechanics. This project replaces the need for a physical scanner with a more convenient and adaptable solution. By sending barcodes through the web interface, you can enjoy a smoother and more immersive gaming experience.
 
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## Planned Features
+
+- UI Improvements
+- Create user-specific collections to quickly access favorite setups
+- Filtering options
+- User feedback in case of errors
+
+## Out of Scope
+
+- **Adding or replacing images or metadata:** Since the game was never released in my country, it is difficult to maintain the appropriate information. This can be taken over by someone else. For me, it was important to provide an easy way to access the barcodes.
+- **iOS App:** Since I do not have an iOS device, this cannot be supported.
+- **Official Releases:** Currently, no official releases are planned in the app stores. Therefore, it will remain with Android for now.
 
 ## License
 
