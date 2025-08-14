@@ -10,6 +10,9 @@ class CardComponent extends HTMLElement {
     super();
     this._shadow = this.attachShadow({ mode: "closed" });
     this.storageHandler = new StorageHandler();
+    this.getCommunicationClient();
+  }
+  getCommunicationClient() {
     this.#client = new CommunicationClient(
       `http://${this.storageHandler.getDataFromLocalStorage(ipAdressKeyName)}/api/barcode`,
     );

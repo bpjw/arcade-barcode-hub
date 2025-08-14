@@ -7,8 +7,6 @@ import StorageHandler from "./services/storage-handler.js";
 let dinos;
 let dataHandler;
 document.addEventListener("DOMContentLoaded", async () => {
-  console.log("App gestartet!");
-
   dataHandler = new DataHandler("../assets/dino.json");
   await dataHandler.fetchData();
   dinos = dataHandler.getData();
@@ -22,6 +20,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   dinos.forEach((dino) =>
     cardSelection.appendChild(createDinoCard(dino, option)),
   );
+  document.addEventListener("value-changed", (e) => {
+    console.log("card", e.detail.value);
+    console.log(cardSelection.childNodes);
+    cardSelection.childNodes.forEach((card) => card.getCommunicationClient());
+  });
+
   const modal = createModal();
   app.appendChild(modal);
 });
@@ -48,8 +52,5 @@ const createCardSection = () => {
 const createDinoCard = (dino, option) => {
   const card = document.createElement("card-component");
   card.setData(dino);
-  card.addEventListener("value-changed", (e) => {
-    console.log("card", e.value);
-  });
   return card;
 };
