@@ -1,8 +1,8 @@
-import  html  from './card-header.html?raw';
-import  css  from './card-header.css?raw';
+import html from "./card-header.html?raw";
+import css from "./card-header.css?raw";
 class CardHeader extends HTMLElement {
   constructor() {
-    super()
+    super();
     this._shadow = this.attachShadow({ mode: "closed" });
   }
   setData(stats) {
@@ -11,13 +11,15 @@ class CardHeader extends HTMLElement {
 
   connectedCallback() {
     this._shadow.innerHTML = `<style>${css}</style>${html}`;
-      this.render();
+    this.render();
   }
 
   render() {
-    if(!this._data) return;
-    this._shadow.getElementById("strength").textContent = this._data.strength != '' ? this._data.strength : 0;
-    this._shadow.getElementById("tech").textContent = this._data.tech != '' ? this._data.tech : 0;
+    if (!this._data) return;
+    this._shadow.getElementById("strength").textContent =
+      this._data.strength != "" ? this._data.strength : 0;
+    this._shadow.getElementById("tech").textContent =
+      this._data.tech != "" ? this._data.tech : 0;
   }
 }
 export default CardHeader;

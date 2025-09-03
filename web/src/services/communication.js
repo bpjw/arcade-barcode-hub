@@ -1,5 +1,4 @@
 class CommunicationClient {
-  //Default URL: http://flycast-codes-api.local/api/barcode
   #url;
   constructor(url) {
     this.#url = url;
@@ -9,9 +8,8 @@ class CommunicationClient {
     try {
       const response = await fetch(this.#url, {
         method: "POST",
-        body: JSON.stringify({ barcode: barcode_value })
-      }
-      );
+        body: JSON.stringify({ barcode: barcode_value }),
+      });
       if (!response.ok) {
         throw new Error(`Response status: ${response.status}`);
       }
@@ -21,7 +19,6 @@ class CommunicationClient {
       console.error(error.message);
     }
   }
-
 }
 
 export default CommunicationClient;
