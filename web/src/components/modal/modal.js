@@ -1,7 +1,9 @@
 import css from "./modal.css?raw";
 import html from "./modal.html?raw";
+
 class Modal extends HTMLElement {
   static observedAttributes = ["istoggled"];
+
   constructor() {
     super();
     this._shadow = this.attachShadow({ mode: "closed" });
@@ -19,11 +21,13 @@ class Modal extends HTMLElement {
       "open-app-modal",
       this.handleOpenModalEvent.bind(this),
     );
+
     this.modalOverlay.addEventListener("click", (e) => {
       if (e.target === this.modalOverlay) {
         this.close();
       }
     });
+
     this.closeButton.addEventListener("click", () => this.close());
   }
 
@@ -36,9 +40,6 @@ class Modal extends HTMLElement {
 
   handleOpenModalEvent(event) {
     const { id, content } = event.detail;
-    console.log(content);
-    console.log(event.detail);
-    console.log(`ModalManager received request to open modal: ${id}`);
     this.open(content);
   }
 

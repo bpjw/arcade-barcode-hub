@@ -1,56 +1,39 @@
 import "./components/card/card.js";
 import "./components/sidebar/sidebar.js";
 import "./components/modal/modal.js";
+import "./components/filter/filter.js";
 import DataHandler from "./services/data-handler.js";
 import StorageHandler from "./services/storage-handler.js";
-
+import * as init from "./services/init.js";
 let dinos;
 let dataHandler;
 document.addEventListener("DOMContentLoaded", async () => {
   dataHandler = new DataHandler("../assets/dino.json");
   await dataHandler.fetchData();
   dinos = dataHandler.getData();
+  let filterStorage = {};
 
   const app = document.getElementById("app");
-  const cardSelection = createCardSection();
+  const filter = init.createFilter();
+  const cardSelection = init.createCardSection();
   const option = loadOptions(dataHandler);
-  const sidebar = createSidebar();
-  app.appendChild(sidebar);
-  app.appendChild(cardSelection);
-  dinos.forEach((dino) =>
-    cardSelection.appendChild(createDinoCard(dino, option)),
-  );
-  document.addEventListener("value-changed", (e) => {
-    console.log("card", e.detail.value);
-    console.log(cardSelection.childNodes);
-    cardSelection.childNodes.forEach((card) => card.getCommunicationClient());
-  });
+  const sidebar = init.createSidebar();
 
-  const modal = createModal();
+  app.appendChild(sidebar);
+  app.appendChild(filter);
+  app.appendChild(cardSelection);
+
+  dinos.forEach((dino) =>
+    cardSelection.appendChild(init.createDinoCard(dino, option)),
+  );
+
+  init.initOption(cardSelection);
+  init.initFilter(filterStorage, cardSelection, option, dinos);
+
+  const modal = init.createModal();
   app.appendChild(modal);
 });
 
 const loadOptions = () => {
   return new StorageHandler();
-};
-const createSidebar = () => {
-  const sidebar = document.createElement("sidebar-component");
-  return sidebar;
-};
-const createModal = () => {
-  const modal = document.createElement("modal-component");
-  return modal;
-};
-
-const createCardSection = () => {
-  const section = document.createElement("section");
-  section.setAttribute("id", "card-overview");
-  section.setAttribute("class", "card-overview");
-  return section;
-};
-
-const createDinoCard = (dino, option) => {
-  const card = document.createElement("card-component");
-  card.setData(dino);
-  return card;
 };

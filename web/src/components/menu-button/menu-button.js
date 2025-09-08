@@ -12,25 +12,21 @@ class MenuButton extends HTMLElement {
   }
 
   attributeChangedCallback(name, oldValue, newValue) {}
+
   addEventListenerToOpenModal() {
     this.addEventListener("click", (e) => {
       const modalId = this.dataset.modalId || "default-modal";
       const modalContent =
         this.dataset.modalContent || "Standardinhalt für das Modal.";
 
-      // Ein Custom Event dispatchen, das von einem zentralen Modal-Manager gehört wird
       const event = new CustomEvent("open-app-modal", {
-        bubbles: true, // Event blubbert nach oben im DOM
-        composed: true, // Event kann Shadow DOM-Grenzen durchqueren
+        bubbles: true,
+        composed: true,
         detail: {
           id: modalId,
           content: modalContent,
-          // Füge hier beliebige weitere Daten hinzu, die das Modal benötigt
         },
       });
-      console.log(
-        `Custom event 'open-app-modal' dispatched for modal ID: ${modalId}`,
-      );
       this.dispatchEvent(event);
     });
   }

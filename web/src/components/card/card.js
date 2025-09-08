@@ -3,15 +3,19 @@ import css from "./card.css?raw";
 import html from "./card.html?raw";
 import CardHeader from "../card-header/card-header.js";
 import StorageHandler from "../../services/storage-handler.js";
+
 const ipAdressKeyName = "ipAdress";
+
 class CardComponent extends HTMLElement {
   #client;
+
   constructor() {
     super();
     this._shadow = this.attachShadow({ mode: "closed" });
     this.storageHandler = new StorageHandler();
     this.getCommunicationClient();
   }
+
   getCommunicationClient() {
     this.#client = new CommunicationClient(
       `http://${this.storageHandler.getDataFromLocalStorage(ipAdressKeyName)}/api/barcode`,
@@ -32,23 +36,27 @@ class CardComponent extends HTMLElement {
   sendCode() {
     this.#client.sendBarcode(this._data.card_code);
   }
+
   render() {
     if (!this._data) return;
 
     const dino = this._data;
-
     const card = this._shadow.querySelector("#card");
     const existingStats = this.querySelector('[slot="stats"]');
+
     if (existingStats) existingStats.remove();
+
     if (this._data.stats?.attack) {
       const statsHeader = document.createElement("card-header");
       statsHeader.setAttribute("slot", "stats");
       statsHeader.setData(this._data.stats);
       this.appendChild(statsHeader);
     }
+
     if (dino.cardType?.toLowerCase() === "move") {
       card.classList.add("move");
     }
+
     this._shadow.getElementById("name").textContent = dino.name;
     this._shadow.getElementById("game").textContent =
       dino.compat != "" ? dino.compat : "N/A";
@@ -62,6 +70,7 @@ class CardComponent extends HTMLElement {
       dino.stats.attack != undefined ? dino.stats.attack.Paper : 0;
     this._shadow.getElementById("scissors").textContent =
       dino.stats.attack != undefined ? dino.stats.attack.Scissors : 0;
+
     if (dino.cardCode && dino.cardCode !== "undefined") {
       card.classList.add(dino.cardCode);
     } else {
