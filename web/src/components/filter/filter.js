@@ -1,7 +1,7 @@
 import css from "./filter.css?raw";
 import html from "./filter.html?raw";
 import TextField from "../text-field/text-field";
-
+import StorageHandler from "../../services/storage-handler";
 class Filter extends HTMLElement {
   #sign = "single-selection-element";
   #compat = "single-selection-game";
@@ -11,7 +11,15 @@ class Filter extends HTMLElement {
   #compatComponent;
   #cardTypeComponent;
   #nameComponent;
-  static observedAttributes = ["sign", "compat", "card_type"];
+  #storageHandler;
+  #filterIndex;
+  static observedAttributes = [
+    "sign",
+    "compat",
+    "card_type",
+    "name",
+    "filter_index",
+  ];
 
   constructor() {
     super();
@@ -19,6 +27,7 @@ class Filter extends HTMLElement {
   }
 
   connectedCallback() {
+    this.#storageHandler = new StorageHandler();
     this._shadow.innerHTML = `<style>${css}</style>${html}`;
 
     this.#signComponent = this._shadow.getElementById(this.#sign);
@@ -42,14 +51,51 @@ class Filter extends HTMLElement {
     });
 
     if (this.#nameComponent) {
-      console.log(this.#nameComponent);
       this.#nameComponent.addEventListener("value-changed", (event) => {
         this.setAttribute("name", event.detail.value);
         this.#dispatchFilterEvent({ name: event.detail.value });
       });
     }
-  }
+    this.#filterIndex = this.#filterIndex ?? 0; // Kürzere Syntax für die Null-Prüfung
 
+    let storage = JSON.parse(
+      this.#storageHandler.getDataFromLocalStorage(this.#filterIndex),
+    );
+
+    if (storage) {
+      if (this.#signComponent && storage.sign) {
+        this.#signComponent.value = storage.sign;
+      }
+      if (this.#compatComponent && storage.compat) {
+        this.#compatComponent.value = storage.compat;
+      }
+      if (this.#cardTypeComponent && storage.card_type) {
+        this.#cardTypeComponent.value = storage.card_type;
+      }
+      if (this.#nameComponent && storage.name) {
+        this.#nameComponent.setAttribute("value", storage.name);
+      }
+    }
+  }
+  attributeChangedCallback(name, oldValue, newValue) {
+    this.#filterIndex = this.getAttribute("filter_index");
+    let storage = JSON.parse(
+      this.#storageHandler.getDataFromLocalStorage(this.#filterIndex),
+    );
+    if (storage == null) {
+      storage = {};
+    }
+    Filter.observedAttributes.forEach((element) => {
+      if (storage[element])
+        this.#dispatchFilterEvent({ [element]: storage[element] });
+    });
+
+    storage[name] = newValue;
+    this.#storageHandler.setDataFromLocalStorage(
+      this.#filterIndex,
+      JSON.stringify(storage),
+    );
+  }
   #dispatchFilterEvent(value) {
     this.dispatchEvent(
       new CustomEvent("filter-changed", {

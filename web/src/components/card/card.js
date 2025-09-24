@@ -1,17 +1,21 @@
 import CommunicationClient from "../../services/communication.js";
+import StorageHandler from "../../services/storage-handler.js";
 import css from "./card.css?raw";
 import html from "./card.html?raw";
 import CardHeader from "../card-header/card-header.js";
-import StorageHandler from "../../services/storage-handler.js";
-
+import Options from "../options/options.js";
+import MenuButton from "../menu-button/menu-button.js";
 const ipAdressKeyName = "ipAdress";
 
 class CardComponent extends HTMLElement {
   #client;
+  #addCollectionButton;
+  #storageHandler;
 
+  static observedAttributes = ["istoggled"];
   constructor() {
     super();
-    this._shadow = this.attachShadow({ mode: "closed" });
+    this._shadow = this.attachShadow({ mode: "open" });
     this.storageHandler = new StorageHandler();
     this.getCommunicationClient();
   }
@@ -27,15 +31,32 @@ class CardComponent extends HTMLElement {
   }
 
   connectedCallback() {
+    this.#storageHandler = new StorageHandler();
     this._shadow.innerHTML = `<style>${css}</style>${html}`;
     if (this._data) {
       this.render();
-      this.addEventListener("click", this.sendCode);
     }
+    this.#addCollectionButton = this._shadow.getElementById("addCollection");
+
+    this.#addCollectionButton.addEventListener("click", (e) => {
+      this.dispatchEvent(
+        new CustomEvent("added-to-collection", {
+          detail: { value: this._data },
+          bubbles: true,
+          composed: true,
+        }),
+      );
+      this.dispatchEvent(
+        new CustomEvent("filter-changed", {
+          bubbles: true,
+          composed: true,
+        }),
+      );
+    });
   }
-  sendCode() {
+  sendCode = () => {
     this.#client.sendBarcode(this._data.card_code);
-  }
+  };
 
   render() {
     if (!this._data) return;
@@ -44,6 +65,7 @@ class CardComponent extends HTMLElement {
     const card = this._shadow.querySelector("#card");
     const existingStats = this.querySelector('[slot="stats"]');
 
+    card.addEventListener("click", this.sendCode);
     if (existingStats) existingStats.remove();
 
     if (this._data.stats?.attack) {

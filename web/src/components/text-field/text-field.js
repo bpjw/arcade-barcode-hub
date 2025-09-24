@@ -17,6 +17,7 @@ class TextField extends HTMLElement {
     if (inputElement) {
       inputElement.addEventListener("input", (e) => {
         const newValue = e.target.value;
+        const oldValue = e.target;
         this.setAttribute("value", newValue);
         this.dispatchEvent(
           new CustomEvent("value-changed", {

@@ -1,0 +1,10 @@
+.inline-router {
+  background-color: red;
+  display: flex;
+}
+.filter-wrapper {
+  padding: 15px;
+}
+.active {
+  background-color: blue;
+}
