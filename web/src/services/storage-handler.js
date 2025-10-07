@@ -23,6 +23,7 @@ class StorageHandler {
     return localStorage.getItem(key);
   }
   setDataFromLocalStorage(key, value) {
+    console.log("value", value);
     localStorage.setItem(key, value);
   }
 }

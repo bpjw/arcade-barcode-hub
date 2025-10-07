@@ -10,11 +10,11 @@ csv_files = ["fire",
              "grass",
              "lightning",
              "earth",
-             "secret",
+             #    "secret",
              "move",
-             "char",
+             #    "char",
              "wind"]
-output_json = "./assets/dino.json"
+output_json = "./public/assets/dino.json"
 
 
 def create_request_url(suffix: str) -> str:
@@ -124,7 +124,7 @@ def get_card_image(bs, alt_attribute):
         header = bs.find(id="Arcade_Stats")
         if header is not None:
             img = header.find_next("img")
-        #img = bs.find("img", attrs={'alt': f'{alt_attribute} {p}'})
+        # img = bs.find("img", attrs={'alt': f'{alt_attribute} {p}'})
         try:
             print(img.get("src"))
             print(img.get("data-src"))
@@ -201,13 +201,13 @@ def download_image(url, index):
     try:
         response = requests.get(url, stream=True)
         if response.status_code == 200:
-         with open(filename, "wb") as file:
-            for chunk in response.iter_content(chunk_size=8192):
-                file.write(chunk)
-                print(f"File downloaded successfully: {filename}")
+            with open(filename, "wb") as file:
+                for chunk in response.iter_content(chunk_size=8192):
+                    file.write(chunk)
+                    print(f"File downloaded successfully: {filename}")
         else:
-         print(f"Failed to download file. Status code: {
-            response.status_code}")
+            print(f"Failed to download file. Status code: {
+                response.status_code}")
 
     except Exception:
         print(f'could not load {url}, {Exception}')

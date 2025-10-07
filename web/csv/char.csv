@@ -1,48 +1,44 @@
-5,,Character Cards,,,,Member Cards,,,,Other,
-ODR = Operation Dino Rescue,Card,Compatibility,Code,,Card,Compatibility,Code,,Card,Compatibility,Code
-AF = Alpha Fortress,Max (Fire/Lightning/Grass),ODR,SEGAX87UV9Z5,,D-Team Member,AF,SEGAF4XLP2Z8,,Golden Pterosaur Move,JPN,SEGAUQZM32TQ
-JPN = Japanese Game,Max (Fire),ODR,SEGA6BTVH8Z2,,D-Team Bronze,JPN,SEGAYSNHN8JB,,Unregistered Dinosaur Card,JPN,SEGA4EWU0T8N
-Card codes found by Anvil,Max (Lightning),ODR,SEGA1DOC4NZ8,,D-Team Silver,JPN,SEGA9HLRFG1S,,,,
-,Max (Grass),ODR,SEGACPHMEFZ4,,D-Team Gold,JPN,SEGA4LAT9H15,,,,
-,Max (Dino Bracer),JPN,SEGABDN362VZ,,D-Team Platinum,JPN,SEGATROKI2K6,,,,
-,Rex (Water/Earth/Wind),ODR,SEGAT49O1BA0,,D-Team Black,JPN,SEGACPG7JG1I,,,,
-,Rex (Water),ODR,SEGAGHMT4HA1,,,,,,,,
-,Rex (Earth),ODR,SEGAKAJLQSA9,,,,,,,,
-,Rex (Wind),ODR,SEGARFSRE0A5,,,,,,,,
-,Rex (Dino Bracer),JPN,SEGAY97VGW9J,,,,,,,,
-,Zoe (Water/Earth/Grass),AF,SEGA8HZMRS2M,,,,,,,,
-,Zoe (Water),AF,SEGAR0Q6XTE7,,,,,,,,
-,Zoe (Earth),AF,SEGA7HP5QH4M,,,,,,,,
-,Zoe (Grass),AF,SEGAM8C6EQHM,,,,,,,,
-,Zoe (Dino Bracer),JPN,SEGA4NGV7ZQV,,,,,,,,
-,Dr. Taylor (All Elements),ODR,SEGA3107GDC8,,,,,,,,
-,Dr. Taylor (Fire),ODR,SEGAJXTVR7C3,,,,,,,,
-,Dr. Taylor (Water),ODR,SEGARVM2BSC7,,,,,,,,
-,Dr. Taylor (Lightning),ODR,SEGA8YOHCZC2,,,,,,,,
-,Dr. Taylor (Earth),ODR,SEGAUGJALFC0,,,,,,,,
-,Dr. Taylor (Grass),ODR,SEGAX4HO0WC8,,,,,,,,
-,Dr. Taylor (Wind),ODR,SEGA21SGRAC6,,,,,,,,
-,Dr. Taylor (Japanese Card),JPN,SEGADDSXBIZR,,,,,,,,
-,Zander,ODR,SEGAS5TSBQB4,,,,,,,,
-,Seth,ODR,SEGAV1MS9VX6,,,,,,,,
-,Seth (Space Pirates),JPN,SEGAWK6BZLSK,,,,,,,,
-,Ursula,ODR,SEGASVHEPNW9,,,,,,,,
-,Ed,ODR,SEGAD8JZUAG5,,,,,,,,
-,Rod,ODR,SEGAANOAFSE0,,,,,,,,
-,Laura,ODR,SEGAARS8VZM8,,,,,,,,
-,Dr. Z,ODR,SEGARS6YC981,,,,,,,,
-,Gavro,JPN,SEGA9ASHXMVJ,,,,,,,,
-,Foolscap,JPN,SEGASZ6FGYI3,,,,,,,,
-,Sheer,JPN,SEGAEAMTXB5N,,,,,,,,
-,Specter,JPN,SEGAJ2M3PB3A,,,,,,,,
-,Goma,JPN,SEGARI0YQ9L8,,,,,,,,
-,Card,Compatibility,Code,,,,,,,,
-,D-Team Member,AF,SEGAF4XLP2Z8,,,,,,,,
-,D-Team Bronze,JPN,SEGAYSNHN8JB,,,,,,,,
-,D-Team Silver,JPN,SEGA9HLRFG1S,,,,,,,,
-,D-Team Gold,JPN,SEGA4LAT9H15,,,,,,,,
-,D-Team Platinum,JPN,SEGATROKI2K6,,,,,,,,
-,D-Team Black,JPN,SEGACPG7JG1I,,,,,,,,
-,Card,Compatibility,Code,,,,,,,,
-,Golden Pterosaur Move,JPN,SEGAUQZM32TQ,,,,,,,,
-,Unregistered Dinosaur Card,JPN,SEGA4EWU0T8N,,,,,,,,
+,Max (Fire/Lightning/Grass),ODR,SEGAX87UV9Z5
+,Max (Fire),ODR,SEGA6BTVH8Z2
+,Max (Lightning),ODR,SEGA1DOC4NZ8
+,Max (Grass),ODR,SEGACPHMEFZ4
+,Max (Dino Bracer),JPN,SEGABDN362VZ
+,Rex (Water/Earth/Wind),ODR,SEGAT49O1BA0
+,Rex (Water),ODR,SEGAGHMT4HA1
+,Rex (Earth),ODR,SEGAKAJLQSA9
+,Rex (Wind),ODR,SEGARFSRE0A5
+,Rex (Dino Bracer),JPN,SEGAY97VGW9J
+,Zoe (Water/Earth/Grass),AF,SEGA8HZMRS2M
+,Zoe (Water),AF,SEGAR0Q6XTE7
+,Zoe (Earth),AF,SEGA7HP5QH4M
+,Zoe (Grass),AF,SEGAM8C6EQHM
+,Zoe (Dino Bracer),JPN,SEGA4NGV7ZQV
+,Dr. Taylor (All Elements),ODR,SEGA3107GDC8
+,Dr. Taylor (Fire),ODR,SEGAJXTVR7C3
+,Dr. Taylor (Water),ODR,SEGARVM2BSC7
+,Dr. Taylor (Lightning),ODR,SEGA8YOHCZC2
+,Dr. Taylor (Earth),ODR,SEGAUGJALFC0
+,Dr. Taylor (Grass),ODR,SEGAX4HO0WC8
+,Dr. Taylor (Wind),ODR,SEGA21SGRAC6
+,Dr. Taylor (Japanese Card),JPN,SEGADDSXBIZR
+,Zander,ODR,SEGAS5TSBQB4
+,Seth,ODR,SEGAV1MS9VX6
+,Seth (Space Pirates),JPN,SEGAWK6BZLSK
+,Ursula,ODR,SEGASVHEPNW9
+,Ed,ODR,SEGAD8JZUAG5
+,Rod,ODR,SEGAANOAFSE0
+,Laura,ODR,SEGAARS8VZM8
+,Dr. Z,ODR,SEGARS6YC981
+,Gavro,JPN,SEGA9ASHXMVJ
+,Foolscap,JPN,SEGASZ6FGYI3
+,Sheer,JPN,SEGAEAMTXB5N
+,Specter,JPN,SEGAJ2M3PB3A
+,Goma,JPN,SEGARI0YQ9L8
+,D-Team Member,AF,SEGAF4XLP2Z8
+,D-Team Bronze,JPN,SEGAYSNHN8JB
+,D-Team Silver,JPN,SEGA9HLRFG1S
+,D-Team Gold,JPN,SEGA4LAT9H15
+,D-Team Platinum,JPN,SEGATROKI2K6
+,D-Team Black,JPN,SEGACPG7JG1I
+,Golden Pterosaur Move,JPN,SEGAUQZM32TQ
+,Unregistered Dinosaur Card,JPN,SEGA4EWU0T8N
