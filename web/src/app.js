@@ -6,6 +6,7 @@ import DataHandler from "./services/data-handler.js";
 import "./components/collection/collection.js";
 import StorageHandler from "./services/storage-handler.js";
 import * as init from "./services/init.js";
+import { createFilter, initFilter } from "./services/init.js";
 import "./components/filter-list/filter-list.js";
 let dinos;
 let dataHandler;

@@ -11,6 +11,7 @@ export const initInlineRouter = () => {
 };
 export const initFilter = (filterStorage, cardSelection, option, dinos) => {
   document.addEventListener("filter-changed", (e) => {
+    console.log("Filter Changed in init");
     if (e.detail != null) {
       filterStorage = { ...filterStorage, ...e.detail.value };
     }
@@ -25,16 +26,22 @@ export const initFilter = (filterStorage, cardSelection, option, dinos) => {
       `dino-collection-${filterStorage["filter_index"]}`,
     );
 
+    console.log(filterStorage);
+    console.log(`dino-collection-${filterStorage["filter_index"]}`);
     // Separate the 'filter_index' key from the others
     const filterKeys = Object.keys(filterStorage).filter(
-      (key) => key !== "filter_index",
+      (key) => key !== "filter_index" && key !== "isHearted",
     );
+    console.log(filterKeys);
 
     let filterdDinos = dinos.filter((dino) => {
       // Condition 1: Check if the current dino is "hearted"
       const isHearted =
         heartedDinoIds && heartedDinoIds.includes(dino.card_code); // Assuming each dino has a unique 'id'
 
+      if (filterStorage.isHearted) {
+        return isHearted;
+      }
       // Condition 2: Check if the dino matches all the *other* filters
       const matchesOtherFilters = filterKeys.every((key) => {
         if (key === "name") {
@@ -107,21 +114,21 @@ export const init = async () => {
   const collection = createDefaultCollection();
 
   app.appendChild(sidebar);
+
+  initFilter(filterStorage, cardSelection, option, dinos);
   app.appendChild(filter);
+  filter.setAttribute("filter_index", 0);
   app.appendChild(collection);
 
-  dinos.forEach((dino) =>
-    cardSelection.appendChild(createDinoCard(dino, option)),
-  );
+  initOption(cardSelection);
+  //dinos.forEach((dino) =>
+  // cardSelection.appendChild(createDinoCard(dino, option)),
+  // );
 
   app.appendChild(cardSelection);
 
-  initOption(cardSelection);
-  initFilter(filterStorage, cardSelection, option, dinos);
-
   const modal = createModal();
   app.appendChild(modal);
-  filter.setAttribute("filter_index", 0);
 };
 const loadOptions = () => {
   return new StorageHandler();

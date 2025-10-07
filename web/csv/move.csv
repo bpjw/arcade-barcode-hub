@@ -1,120 +1,118 @@
-Card Compatibility,,Rock Move Cards,,,,,Paper Move Cards,,,,,Scissors Move Cards,,,,,Critical Move Cards,,
-ODR = Operation Dino Rescue,Card,Type,Compatibility,Code,,Card,Type,Compatibility,Code,,Card,Type,Compatibility,Code,,Card,Type,Compatibility,Code
-AF = Alpha Fortress,Tail Smash,Normal,ODR,SEGA6BAVGVB5,,Neck Crusher,Normal,ODR,SEGABNAHBSX5,,Kamikaze Tackle,Normal,ODR,SEGAFJKLG5B1,,Crimson Flame,Fire,JPN,SEGAZT8VDU5M
-JPN = Japanese Game,Stomping Hammer,Normal,ODR,SEGA3C56VBM8,,Atomic Bomb,Normal,ODR,SEGAVFXCTBL7,,Death Grind,Normal,ODR,SEGA4N2Q3FH0,,Neptune Stream,Water,JPN,SEGANZK21RX1
-Card codes found by Anvil,Diving Press,Normal,ODR,SEGADCYX6F26,,Dino Swing,Normal,ODR,SEGAABBE4GA3,,Death Grind (Alternate),Normal,ODR,SEGAH53LP4LM,,Final Thunder,Lightning,JPN,SEGA0NUOX8TA
-,Critical Block,Normal,ODR,SEGAGMFD41X1,,Haste,Normal,ODR,SEGAGWQACOF9,,Wall Smash,Normal,ODR,SEGA4BSGKW32,,Gaia Mountain,Earth,JPN,SEGACW6D59S7
-,Final Fury,Normal,ODR,SEGAABBJHAE0,,Counterattack Recovery,Normal,ODR,SEGAVU78R4J0,,Tie Breaker,Normal,ODR,SEGA982HJDA7,,Dino Force,Grass,JPN,SEGADW093UXG
-,Defense Boost,Normal,ODR,SEGACN6SJK3J,,Attack Boost,Normal,ODR,SEGA7S8W9J1A,,Quick Strike,Normal,ODR,SEGA7G1TEWR6,,Air Raid Storm,Wind,JPN,SEGATEY9TJQ6
-,Tag Team,Normal,ODR,SEGAN9SH4D1L,,Move Breaker,Normal,ODR,SEGAO6EUR1N2,,Elemental Power,Normal,ODR,SEGA1BA2U3C9,,,,,
-,Skydive,Normal,AF,SEGA3U3EX03B,,Leaellyn Cure,Normal,AF,SEGA54B6YWHX,,Technique Boost,Normal,AF,SEGA1NWB157R,,,,,
-,Power Drain,Normal,ODR,SEGAHF9UBLAC,,Stun Dash,Normal,ODR,SEGA2ZGCB8ZX,,Life-Force Swap,Normal,AF,SEGA8XO21ARZ,,,,,
-,Tie Attack,Normal,AF,SEGAMG6D1PRQ,,Tie Bomb,Normal,AF,SEGARCZ4HO07,,Triple Headbutt,Normal,AF,SEGATG4MZDCU,,,,,
-,Dino Stuffer,Normal,AF,SEGAR2OG7JWH,,Alpha Dice,Normal,AF,SEGARZARDFAZ,,Venom Fang,Normal,ODR,SEGAQT5YEWG1,,,,,
-,Move Block,Normal,AF,SEGAUBXVSTXW,,Archaeopteryx Charm,Normal,JPN,SEGA6HQ3HOWJ,,Light Recovery,Normal,ODR,SEGAAQ4P12DN,,,,,
-,ACT Missile,Normal,JPN,SEGA7GRXRM6W,,Attack Burst,Normal,JPN,SEGAGVS9Z35G,,Anhanguera Dive,Normal,JPN,SEGAU6RQ04RZ,,,,,
-,Defense Burst,Normal,JPN,SEGALFQZB9O2,,Tapejara Dive,Normal,JPN,SEGAXBF8PA24,,Struthio Rush,Normal,JPN,SEGAEGULHVM2,,,,,
-,Tupuxuara Dive,Normal,JPN,SEGAPQ5PC27Q,,Dromeo Rush,Normal,JPN,SEGATLJAQUHN,,Tie Trap,Normal,JPN,SEGA4AUZGIAH,,,,,
-,Galli Rush,Normal,JPN,SEGAR845J9IR,,Softening Beam,Normal,JPN,SEGAGMB4YN6H,,Hold on! Alpha Trooper!,Normal,JPN,SEGA29SRFTDE,,,,,
-,Fight! Alpha Trooper!,Normal,JPN,SEGAG939HBTT,,Let's go! Alpha Trooper!,Normal,JPN,SEGA58YNA3AF,,Alpha Dart,Normal,JPN,SEGA1QVDR42W,,,,,
-,Smiling Hamburger,Normal,JPN,SEGAARF2NDG0,,Excited Spaghetti,Normal,JPN,SEGAFD2KE3X6,,Banana Surprise,Normal,JPN,SEGA0GDGF2K2,,,,,
-,Happy Omelette,Normal,JPN,SEGAW13YFT3S,,Happy Pudding,Normal,JPN,SEGADOOO6MFU,,Naughty Curry and Rice,Normal,JPN,SEGA8881R29I,,,,,
-,Fire Cannon,Fire,ODR,SEGA54NDN1G4,,Blazing Spin Attack,Fire,ODR,SEGAL4IHZNG6,,Exciting Strawberry Cake,Normal,JPN,SEGAKGU4DDEM,,,,,
-,Magma Blaster,Fire,AF,SEGAZ45VLQA6,,Volcano Burst,Fire,ODR,SEGA15FQNVUE,,Fire Bomb,Fire,ODR,SEGANHGT83V4,,,,,
-,Heat Eruption,Fire,JPN,SEGASTGYXDV8,,Burning Dash,Fire,JPN,SEGALELA6DZ2,,Death Fire,Fire,AF,SEGAJO6WYC81,,,,,
-,Water Sword,Water,ODR,SEGAHDLGD8T7,,Aqua Whip,Water,ODR,SEGA73UPA3G8,,Flare Sword,Fire,JPN,SEGAIYL02RZO,,,,,
-,Shockwave,Water,AF,SEGAYB17CGCR,,Aqua Vortex,Water,AF,SEGAGVW59FZT,,Tragic Sphere,Water,ODR,SEGA1DLBVSZ3,,,,,
-,Hydro Cutter,Water,JPN,SEGAXN0YQ3AW,,Aqua Javelin,Water,JPN,SEGAUSENIRK5,,Futaba Cannon,Water,AF,SEGAN2A8I8P7,,,,,
-,Lightning Strike,Lightning,ODR,SEGAJ7GFDVS9,,Lightning Spear,Lightning,ODR,SEGA7GEO2HW1,,Ocean Panic,Water,JPN,SEGA9XIZMU1A,,,,,
-,Counter Blitz,Lightning,AF,SEGA0W35YNC5,,Gatling Spark,Lightning,AF,SEGABUW7B23K,,Thunder Bazooka,Lightning,ODR,SEGABNV5SJ76,,,,,
-,Lightning Axe,Lightning,JPN,SEGA0UP396S3,,Plasma Anchor,Lightning,JPN,SEGAS6WO0T8N,,Electric Charge,Lightning,ODR,SEGAFH5JBF5S,,,,,
-,Spike Arrows,Earth,ODR,SEGAX64WG6Z3,,Earthquake,Earth,ODR,SEGABHCVY1Q2,,Thunder Driver,Lightning,JPN,SEGACWX8X0NT,,,,,
-,Quake Saber,Earth,AF,SEGAOFA2WXHA,,Earth Barrier,Earth,ODR,SEGAJ1D695S8,,Mole Attack,Earth,ODR,SEGAFBTD67T2,,,,,
-,Sand Trap,Earth,JPN,SEGASLG3AW7F,,Rock Roller,Earth,JPN,SEGAYRVY8GTQ,,Crystal Crusher,Earth,AF,SEGAYR2KGG6A,,,,,
-,Egg Attack,Grass,ODR,SEGABMJ5KLF8,,Metal Wing,Grass,ODR,SEGAXR9DTWH6,,Gigarock Hammer,Earth,JPN,SEGALZXSI3D1,,,,,
-,Nature's Blessing,Grass,ODR,SEGAN4COI6X5,,Super Impact,Grass,AF,SEGAAVYQF3IS,,Big Foot Assault,Grass,ODR,SEGAVS2FBCA8,,,,,
-,Two-Platoon Crush,Grass,JPN,SEGA1UT6ALCX,,Green Impulse,Grass,JPN,SEGAXBT9YRWN,,Emerald Garden,Grass,AF,SEGADNA5VNN8,,,,,
-,Biting Wind,Wind,ODR,SEGA87DFVJP5,,Tornado Toss,Wind,ODR,SEGAGFVQMAL9,,Thorn Whip,Grass,JPN,SEGAG6E1BN48,,,,,
-,Dino Illusion,Wind,AF,SEGA8DGY5JUR,,Mayfly,Wind,AF,SEGA93PXRR82,,Ninja Attack,Wind,ODR,SEGACWER4NK1,,,,,
-,Jet Shuriken,Wind,JPN,SEGAV4GJED3M,,Sonic Blast,Wind,JPN,SEGAH5MZ9LPV,,Cyclone,Wind,ODR,SEGAV8D7JKJ9,,,,,
-,Neck Crusher,Normal,ODR,SEGABNAHBSX5,,,,,,,,,,,,,,,
-,Atomic Bomb,Normal,ODR,SEGAVFXCTBL7,,,,,,,,,,,,,,,
-,Dino Swing,Normal,ODR,SEGAABBE4GA3,,,,,,,,,,,,,,,
-,Haste,Normal,ODR,SEGAGWQACOF9,,,,,,,,,,,,,,,
-,Counterattack Recovery,Normal,ODR,SEGAVU78R4J0,,,,,,,,,,,,,,,
-,Attack Boost,Normal,ODR,SEGA7S8W9J1A,,,,,,,,,,,,,,,
-,Move Breaker,Normal,ODR,SEGAO6EUR1N2,,,,,,,,,,,,,,,
-,Leaellyn Cure,Normal,AF,SEGA54B6YWHX,,,,,,,,,,,,,,,
-,Stun Dash,Normal,ODR,SEGA2ZGCB8ZX,,,,,,,,,,,,,,,
-,Tie Bomb,Normal,AF,SEGARCZ4HO07,,,,,,,,,,,,,,,
-,Alpha Dice,Normal,AF,SEGARZARDFAZ,,,,,,,,,,,,,,,
-,Archaeopteryx Charm,Normal,JPN,SEGA6HQ3HOWJ,,,,,,,,,,,,,,,
-,Attack Burst,Normal,JPN,SEGAGVS9Z35G,,,,,,,,,,,,,,,
-,Tapejara Dive,Normal,JPN,SEGAXBF8PA24,,,,,,,,,,,,,,,
-,Dromeo Rush,Normal,JPN,SEGATLJAQUHN,,,,,,,,,,,,,,,
-,Softening Beam,Normal,JPN,SEGAGMB4YN6H,,,,,,,,,,,,,,,
-,Let's go! Alpha Trooper!,Normal,JPN,SEGA58YNA3AF,,,,,,,,,,,,,,,
-,Excited Spaghetti,Normal,JPN,SEGAFD2KE3X6,,,,,,,,,,,,,,,
-,Happy Pudding,Normal,JPN,SEGADOOO6MFU,,,,,,,,,,,,,,,
-,Blazing Spin Attack,Fire,ODR,SEGAL4IHZNG6,,,,,,,,,,,,,,,
-,Volcano Burst,Fire,ODR,SEGA15FQNVUE,,,,,,,,,,,,,,,
-,Burning Dash,Fire,JPN,SEGALELA6DZ2,,,,,,,,,,,,,,,
-,Aqua Whip,Water,ODR,SEGA73UPA3G8,,,,,,,,,,,,,,,
-,Aqua Vortex,Water,AF,SEGAGVW59FZT,,,,,,,,,,,,,,,
-,Aqua Javelin,Water,JPN,SEGAUSENIRK5,,,,,,,,,,,,,,,
-,Lightning Spear,Lightning,ODR,SEGA7GEO2HW1,,,,,,,,,,,,,,,
-,Gatling Spark,Lightning,AF,SEGABUW7B23K,,,,,,,,,,,,,,,
-,Plasma Anchor,Lightning,JPN,SEGAS6WO0T8N,,,,,,,,,,,,,,,
-,Earthquake,Earth,ODR,SEGABHCVY1Q2,,,,,,,,,,,,,,,
-,Earth Barrier,Earth,ODR,SEGAJ1D695S8,,,,,,,,,,,,,,,
-,Rock Roller,Earth,JPN,SEGAYRVY8GTQ,,,,,,,,,,,,,,,
-,Metal Wing,Grass,ODR,SEGAXR9DTWH6,,,,,,,,,,,,,,,
-,Super Impact,Grass,AF,SEGAAVYQF3IS,,,,,,,,,,,,,,,
-,Green Impulse,Grass,JPN,SEGAXBT9YRWN,,,,,,,,,,,,,,,
-,Tornado Toss,Wind,ODR,SEGAGFVQMAL9,,,,,,,,,,,,,,,
-,Mayfly,Wind,AF,SEGA93PXRR82,,,,,,,,,,,,,,,
-,Sonic Blast,Wind,JPN,SEGAH5MZ9LPV,,,,,,,,,,,,,,,
-,Kamikaze Tackle,Normal,ODR,SEGAFJKLG5B1,,,,,,,,,,,,,,,
-,Death Grind,Normal,ODR,SEGA4N2Q3FH0,,,,,,,,,,,,,,,
-,Death Grind (Alternate),Normal,ODR,SEGAH53LP4LM,,,,,,,,,,,,,,,
-,Wall Smash,Normal,ODR,SEGA4BSGKW32,,,,,,,,,,,,,,,
-,Tie Breaker,Normal,ODR,SEGA982HJDA7,,,,,,,,,,,,,,,
-,Quick Strike,Normal,ODR,SEGA7G1TEWR6,,,,,,,,,,,,,,,
-,Elemental Power,Normal,ODR,SEGA1BA2U3C9,,,,,,,,,,,,,,,
-,Technique Boost,Normal,AF,SEGA1NWB157R,,,,,,,,,,,,,,,
-,Life-Force Swap,Normal,AF,SEGA8XO21ARZ,,,,,,,,,,,,,,,
-,Triple Headbutt,Normal,AF,SEGATG4MZDCU,,,,,,,,,,,,,,,
-,Venom Fang,Normal,ODR,SEGAQT5YEWG1,,,,,,,,,,,,,,,
-,Light Recovery,Normal,ODR,SEGAAQ4P12DN,,,,,,,,,,,,,,,
-,Anhanguera Dive,Normal,JPN,SEGAU6RQ04RZ,,,,,,,,,,,,,,,
-,Struthio Rush,Normal,JPN,SEGAEGULHVM2,,,,,,,,,,,,,,,
-,Tie Trap,Normal,JPN,SEGA4AUZGIAH,,,,,,,,,,,,,,,
-,Hold on! Alpha Trooper!,Normal,JPN,SEGA29SRFTDE,,,,,,,,,,,,,,,
-,Alpha Dart,Normal,JPN,SEGA1QVDR42W,,,,,,,,,,,,,,,
-,Banana Surprise,Normal,JPN,SEGA0GDGF2K2,,,,,,,,,,,,,,,
-,Naughty Curry and Rice,Normal,JPN,SEGA8881R29I,,,,,,,,,,,,,,,
-,Exciting Strawberry Cake,Normal,JPN,SEGAKGU4DDEM,,,,,,,,,,,,,,,
-,Fire Bomb,Fire,ODR,SEGANHGT83V4,,,,,,,,,,,,,,,
-,Death Fire,Fire,AF,SEGAJO6WYC81,,,,,,,,,,,,,,,
-,Flare Sword,Fire,JPN,SEGAIYL02RZO,,,,,,,,,,,,,,,
-,Tragic Sphere,Water,ODR,SEGA1DLBVSZ3,,,,,,,,,,,,,,,
-,Futaba Cannon,Water,AF,SEGAN2A8I8P7,,,,,,,,,,,,,,,
-,Ocean Panic,Water,JPN,SEGA9XIZMU1A,,,,,,,,,,,,,,,
-,Thunder Bazooka,Lightning,ODR,SEGABNV5SJ76,,,,,,,,,,,,,,,
-,Electric Charge,Lightning,ODR,SEGAFH5JBF5S,,,,,,,,,,,,,,,
-,Thunder Driver,Lightning,JPN,SEGACWX8X0NT,,,,,,,,,,,,,,,
-,Mole Attack,Earth,ODR,SEGAFBTD67T2,,,,,,,,,,,,,,,
-,Crystal Crusher,Earth,AF,SEGAYR2KGG6A,,,,,,,,,,,,,,,
-,Gigarock Hammer,Earth,JPN,SEGALZXSI3D1,,,,,,,,,,,,,,,
-,Big Foot Assault,Grass,ODR,SEGAVS2FBCA8,,,,,,,,,,,,,,,
-,Emerald Garden,Grass,AF,SEGADNA5VNN8,,,,,,,,,,,,,,,
-,Thorn Whip,Grass,JPN,SEGAG6E1BN48,,,,,,,,,,,,,,,
-,Ninja Attack,Wind,ODR,SEGACWER4NK1,,,,,,,,,,,,,,,
-,Cyclone,Wind,ODR,SEGAV8D7JKJ9,,,,,,,,,,,,,,,
-,Hurricane Beat,Wind,JPN,SEGAPZL8RSGX,,,,,,,,,,,,,,,
-,Crimson Flame,Fire,JPN,SEGAZT8VDU5M,,,,,,,,,,,,,,,
-,Neptune Stream,Water,JPN,SEGANZK21RX1,,,,,,,,,,,,,,,
-,Final Thunder,Lightning,JPN,SEGA0NUOX8TA,,,,,,,,,,,,,,,
-,Gaia Mountain,Earth,JPN,SEGACW6D59S7,,,,,,,,,,,,,,,
-,Dino Force,Grass,JPN,SEGADW093UXG,,,,,,,,,,,,,,,
-,Air Raid Storm,Wind,JPN,SEGATEY9TJQ6,,,,,,,,,,,,,,,
+,Tail Smash,Normal,ODR,SEGA6BAVGVB5
+,Stomping Hammer,Normal,ODR,SEGA3C56VBM8
+,Diving Press,Normal,ODR,SEGADCYX6F26
+,Critical Block,Normal,ODR,SEGAGMFD41X1
+,Final Fury,Normal,ODR,SEGAABBJHAE0
+,Defense Boost,Normal,ODR,SEGACN6SJK3J
+,Tag Team,Normal,ODR,SEGAN9SH4D1L
+,Skydive,Normal,AF,SEGA3U3EX03B
+,Power Drain,Normal,ODR,SEGAHF9UBLAC
+,Tie Attack,Normal,AF,SEGAMG6D1PRQ
+,Dino Stuffer,Normal,AF,SEGAR2OG7JWH
+,Move Block,Normal,AF,SEGAUBXVSTXW
+,ACT Missile,Normal,JPN,SEGA7GRXRM6W
+,Defense Burst,Normal,JPN,SEGALFQZB9O2
+,Tupuxuara Dive,Normal,JPN,SEGAPQ5PC27Q
+,Galli Rush,Normal,JPN,SEGAR845J9IR
+,Fight! Alpha Trooper!,Normal,JPN,SEGAG939HBTT
+,Smiling Hamburger,Normal,JPN,SEGAARF2NDG0
+,Happy Omelette,Normal,JPN,SEGAW13YFT3S
+,Fire Cannon,Fire,ODR,SEGA54NDN1G4
+,Magma Blaster,Fire,AF,SEGAZ45VLQA6
+,Heat Eruption,Fire,JPN,SEGASTGYXDV8
+,Water Sword,Water,ODR,SEGAHDLGD8T7
+,Shockwave,Water,AF,SEGAYB17CGCR
+,Hydro Cutter,Water,JPN,SEGAXN0YQ3AW
+,Lightning Strike,Lightning,ODR,SEGAJ7GFDVS9
+,Counter Blitz,Lightning,AF,SEGA0W35YNC5
+,Lightning Axe,Lightning,JPN,SEGA0UP396S3
+,Spike Arrows,Earth,ODR,SEGAX64WG6Z3
+,Quake Saber,Earth,AF,SEGAOFA2WXHA
+,Sand Trap,Earth,JPN,SEGASLG3AW7F
+,Egg Attack,Grass,ODR,SEGABMJ5KLF8
+,Nature's Blessing,Grass,ODR,SEGAN4COI6X5
+,Two-Platoon Crush,Grass,JPN,SEGA1UT6ALCX
+,Biting Wind,Wind,ODR,SEGA87DFVJP5
+,Dino Illusion,Wind,AF,SEGA8DGY5JUR
+,Jet Shuriken,Wind,JPN,SEGAV4GJED3M
+,Neck Crusher,Normal,ODR,SEGABNAHBSX5
+,Atomic Bomb,Normal,ODR,SEGAVFXCTBL7
+,Dino Swing,Normal,ODR,SEGAABBE4GA3
+,Haste,Normal,ODR,SEGAGWQACOF9
+,Counterattack Recovery,Normal,ODR,SEGAVU78R4J0
+,Attack Boost,Normal,ODR,SEGA7S8W9J1A
+,Move Breaker,Normal,ODR,SEGAO6EUR1N2
+,Leaellyn Cure,Normal,AF,SEGA54B6YWHX
+,Stun Dash,Normal,ODR,SEGA2ZGCB8ZX
+,Tie Bomb,Normal,AF,SEGARCZ4HO07
+,Alpha Dice,Normal,AF,SEGARZARDFAZ
+,Archaeopteryx Charm,Normal,JPN,SEGA6HQ3HOWJ
+,Attack Burst,Normal,JPN,SEGAGVS9Z35G
+,Tapejara Dive,Normal,JPN,SEGAXBF8PA24
+,Dromeo Rush,Normal,JPN,SEGATLJAQUHN
+,Softening Beam,Normal,JPN,SEGAGMB4YN6H
+,Let's go! Alpha Trooper!,Normal,JPN,SEGA58YNA3AF
+,Excited Spaghetti,Normal,JPN,SEGAFD2KE3X6
+,Happy Pudding,Normal,JPN,SEGADOOO6MFU
+,Blazing Spin Attack,Fire,ODR,SEGAL4IHZNG6
+,Volcano Burst,Fire,ODR,SEGA15FQNVUE
+,Burning Dash,Fire,JPN,SEGALELA6DZ2
+,Aqua Whip,Water,ODR,SEGA73UPA3G8
+,Aqua Vortex,Water,AF,SEGAGVW59FZT
+,Aqua Javelin,Water,JPN,SEGAUSENIRK5
+,Lightning Spear,Lightning,ODR,SEGA7GEO2HW1
+,Gatling Spark,Lightning,AF,SEGABUW7B23K
+,Plasma Anchor,Lightning,JPN,SEGAS6WO0T8N
+,Earthquake,Earth,ODR,SEGABHCVY1Q2
+,Earth Barrier,Earth,ODR,SEGAJ1D695S8
+,Rock Roller,Earth,JPN,SEGAYRVY8GTQ
+,Metal Wing,Grass,ODR,SEGAXR9DTWH6
+,Super Impact,Grass,AF,SEGAAVYQF3IS
+,Green Impulse,Grass,JPN,SEGAXBT9YRWN
+,Tornado Toss,Wind,ODR,SEGAGFVQMAL9
+,Mayfly,Wind,AF,SEGA93PXRR82
+,Sonic Blast,Wind,JPN,SEGAH5MZ9LPV
+,Kamikaze Tackle,Normal,ODR,SEGAFJKLG5B1
+,Death Grind,Normal,ODR,SEGA4N2Q3FH0
+,Death Grind (Alternate),Normal,ODR,SEGAH53LP4LM
+,Wall Smash,Normal,ODR,SEGA4BSGKW32
+,Tie Breaker,Normal,ODR,SEGA982HJDA7
+,Quick Strike,Normal,ODR,SEGA7G1TEWR6
+,Elemental Power,Normal,ODR,SEGA1BA2U3C9
+,Technique Boost,Normal,AF,SEGA1NWB157R
+,Life-Force Swap,Normal,AF,SEGA8XO21ARZ
+,Triple Headbutt,Normal,AF,SEGATG4MZDCU
+,Venom Fang,Normal,ODR,SEGAQT5YEWG1
+,Light Recovery,Normal,ODR,SEGAAQ4P12DN
+,Anhanguera Dive,Normal,JPN,SEGAU6RQ04RZ
+,Struthio Rush,Normal,JPN,SEGAEGULHVM2
+,Tie Trap,Normal,JPN,SEGA4AUZGIAH
+,Hold on! Alpha Trooper!,Normal,JPN,SEGA29SRFTDE
+,Alpha Dart,Normal,JPN,SEGA1QVDR42W
+,Banana Surprise,Normal,JPN,SEGA0GDGF2K2
+,Naughty Curry and Rice,Normal,JPN,SEGA8881R29I
+,Exciting Strawberry Cake,Normal,JPN,SEGAKGU4DDEM
+,Fire Bomb,Fire,ODR,SEGANHGT83V4
+,Death Fire,Fire,AF,SEGAJO6WYC81
+,Flare Sword,Fire,JPN,SEGAIYL02RZO
+,Tragic Sphere,Water,ODR,SEGA1DLBVSZ3
+,Futaba Cannon,Water,AF,SEGAN2A8I8P7
+,Ocean Panic,Water,JPN,SEGA9XIZMU1A
+,Thunder Bazooka,Lightning,ODR,SEGABNV5SJ76
+,Electric Charge,Lightning,ODR,SEGAFH5JBF5S
+,Thunder Driver,Lightning,JPN,SEGACWX8X0NT
+,Mole Attack,Earth,ODR,SEGAFBTD67T2
+,Crystal Crusher,Earth,AF,SEGAYR2KGG6A
+,Gigarock Hammer,Earth,JPN,SEGALZXSI3D1
+,Big Foot Assault,Grass,ODR,SEGAVS2FBCA8
+,Emerald Garden,Grass,AF,SEGADNA5VNN8
+,Thorn Whip,Grass,JPN,SEGAG6E1BN48
+,Ninja Attack,Wind,ODR,SEGACWER4NK1
+,Cyclone,Wind,ODR,SEGAV8D7JKJ9
+,Hurricane Beat,Wind,JPN,SEGAPZL8RSGX
+,Crimson Flame,Fire,JPN,SEGAZT8VDU5M
+,Neptune Stream,Water,JPN,SEGANZK21RX1
+,Final Thunder,Lightning,JPN,SEGA0NUOX8TA
+,Gaia Mountain,Earth,JPN,SEGACW6D59S7
+,Dino Force,Grass,JPN,SEGADW093UXG
+,Air Raid Storm,Wind,JPN,SEGATEY9TJQ6

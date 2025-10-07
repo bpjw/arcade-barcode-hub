@@ -10,11 +10,11 @@ csv_files = ["fire",
              "grass",
              "lightning",
              "earth",
-             "secret",
+             #    "secret",
              "move",
-             #  "char",
+             #    "char",
              "wind"]
-output_json = "./assets/dino.json"
+output_json = "./public/assets/dino.json"
 
 
 def create_request_url(suffix: str) -> str:
