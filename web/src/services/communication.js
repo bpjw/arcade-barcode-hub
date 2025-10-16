@@ -6,7 +6,7 @@ class CommunicationClient {
 
   async sendBarcode(barcode_value) {
     try {
-      const response = await fetch(this.#url, {
+      const response = await fetch(`${this.#url}?barcode=${barcode_value}`, {
         method: "POST",
         body: JSON.stringify({ barcode: barcode_value }),
       });
